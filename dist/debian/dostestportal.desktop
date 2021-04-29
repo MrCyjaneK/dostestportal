@@ -1,0 +1,9 @@
+[Desktop Entry]
+GenericName=dostestportal
+Name=dostestportal
+Exec=dostestportal %U
+Icon=dostestportal
+Type=Application
+Terminal=false
+Categories=Utility;
+Comment=dostestportal is a hack for Quizizz!
