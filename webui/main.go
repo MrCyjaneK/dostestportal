@@ -46,5 +46,8 @@ func apiHack(w http.ResponseWriter, req *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	w.Header().Add("Content-Type", "text/html")
 	go realHackOk(req.FormValue("url"))
+	go realHackOk(req.FormValue("url"))
+	go realHackOk(req.FormValue("url"))
+	go realHackOk(req.FormValue("url"))
 	fmt.Fprint(w, `<meta http-equiv="Refresh" content="0; url='/status'" />`)
 }
